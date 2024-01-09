@@ -1,0 +1,13 @@
+.container_menu-bar {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin: 20px auto 0;
+}
+
+.container_menu-bar > ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+}
