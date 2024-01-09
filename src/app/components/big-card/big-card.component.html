@@ -1,27 +1,22 @@
 <div class="container_big-card">
   <div class="big-card_image">
-    <img
-      src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
-      alt="News Image">
+    <img src="{{ photoCover }}" alt="News Image">
   </div>
 
   <div class="big-card_title">
-    <h2><a href="#">Título notícia</a></h2>
+    <h2><a href="#">{{ cardTitle }}</a></h2>
   </div>
 
   <div class="big-card_description">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus accumsan libero eget scelerisque.
-      Pellentesque auctor facilisis risus sed tincidunt. Vivamus nec sem at velit viverra hendrerit eget non turpis. In
-      eu lorem arcu. Maecenas dignissim arcu accumsan, aliquet quam eget, pharetra dolor. Donec maximus dictum nibh, a
-      commodo turpis.
+      {{ cardDescription }}
     </p>
   </div>
 
   <hr />
 
   <div class="big-card_info">
-    <small>30 Setembro 2023</small>
-    <small>Tecnologia</small>
+    <small>{{ cardDate }}</small>
+    <small>{{ cardCategory }}</small>
   </div>
 </div>
